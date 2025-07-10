@@ -60,7 +60,7 @@ footer {
   transform: translateY(30px);
   animation: fadeInUp 1.5s ease-out forwards;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   display: block;
   margin: 30px auto;
 }
