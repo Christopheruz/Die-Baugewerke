@@ -1,1 +1,76 @@
-index
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Startseite</title>
+  <style>
+    /* (CSS wie oben – gleich in allen Dateien) */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #dce6f2;
+      color: #333;
+    }
+    header {
+      background-color: #6fa8dc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+    }
+    .container {
+      display: flex;
+      min-height: 90vh;
+    }
+    main {
+      flex: 1;
+      padding: 30px;
+    }
+    nav {
+      width: 200px;
+      background-color: #b6d7f5;
+      padding: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav li {
+      margin-bottom: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #6fa8dc;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>Meine Webseite</header>
+  <div class="container">
+    <main>
+      <h2>Willkommen!</h2>
+      <p>Dies ist die Startseite deiner Webseite.</p>
+    </main>
+    <nav>
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="ueber.html">Über mich</a></li>
+        <li><a href="projekte.html">Projekte</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+  <footer>© 2025 Dein Name</footer>
+</body>
+</html>
