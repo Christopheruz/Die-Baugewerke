@@ -59,8 +59,8 @@ footer {
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1.5s ease-out forwards;
-  width: 100%;
-  max-width: 800px;
+  width: 1200px;
+  max-width: 100%;
   display: block;
   margin: 30px auto;
 }
